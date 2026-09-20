@@ -1,0 +1,24 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,jsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Space Grotesk', 'Inter', 'sans-serif'],
+      },
+      colors: {
+        ink: '#08080d',
+        panel: '#111117',
+        violet: '#8757ff',
+        electric: '#a78bfa',
+        pink: '#fb4ba8',
+        cyan: '#65d8ff',
+      },
+      boxShadow: {
+        neon: '0 0 42px rgba(135, 87, 255, .22)',
+      },
+    },
+  },
+  plugins: [],
+}
